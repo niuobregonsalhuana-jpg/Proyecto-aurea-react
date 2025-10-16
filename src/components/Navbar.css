@@ -1,0 +1,19 @@
+.bg-pink {
+  background-color: #ff0080 !important;
+}
+
+.text-pink {
+  color: #ff0080 !important;
+}
+
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+
+.text-white {
+  color: #fff !important;
+}

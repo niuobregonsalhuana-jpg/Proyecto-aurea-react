@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+:root {
+  --color-pink: #ff0080;
+  --color-secondary: #fde8f3;
+}
+
+.bg-pink {
+  background-color: var(--color-pink) !important;
+}
+.text-pink {
+  color: var(--color-pink) !important;
+}
+
+.mision-sobre-aurea {
+  background-color: var(--color-secondary);
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.separador-rosado {
+  background-color: var(--color-pink);
+  color: #fff;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.titulo-separador {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Botón personalizado (btn-custom) que usas en tu HTML */
+.btn-custom {
+  background-color: var(--color-pink);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-custom:hover {
+  background-color: #e60073;
+  color: #fff;
+}
