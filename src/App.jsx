@@ -9,7 +9,7 @@ import Hero from './components/Hero'
 // import MascotaPchan from './components/MascotaPchan'
 import Footer from './components/Footer'
 import SobreAurea from './pages/SobreAurea'
-import Carousel from './components/Carrusel'
+import Productos from './pages/Productos'
 
 
 //Mis paginas
@@ -29,10 +29,10 @@ function App () {
     <>
           <BrowserRouter>
             <Navbar />
-              <Carousel images={images} interval={3000} />
             <Routes>
               <Route path='/' element= {<Hero />}></Route>
               <Route path='/SobreAurea'element={<SobreAurea />} />
+              <Route path="Productos" element={<Productos />} />
               
             </Routes>  
             

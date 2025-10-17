@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 
 const Carousel = ({ images = [], interval = 3000 }) => {
@@ -43,4 +44,14 @@ const Carousel = ({ images = [], interval = 3000 }) => {
   );
 };
 
-export default Carousel;
+function Productos () {
+return (
+<div className="letter">
+      <b>Los Mejores Productos de Aurea para ti:</b>
+    </div> 
+)
+}
+
+export default Productos;
+
+
