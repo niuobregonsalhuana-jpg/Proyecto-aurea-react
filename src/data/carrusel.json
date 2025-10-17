@@ -1,0 +1,30 @@
+{
+    "carrusel":[ 
+{
+    "id": 1,
+     "imagen": "img1.png"
+},
+{
+    "id": 1,
+    "imagen": "img2.png"
+},
+{
+    "id": 1,
+    "imagen": "img3.png"
+},
+{
+    "id": 1,
+    "imagen": "img4.png"
+},
+{
+    "id": 1,
+    "imagen": "img5.png"
+},
+{
+    "id": 1,
+    "imagen": "img6.png"
+
+
+      }
+   ]
+}
