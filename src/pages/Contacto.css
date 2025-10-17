@@ -1,0 +1,243 @@
+/* ======== SECCIÓN GENERAL ======== */
+.contacto-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ======== TÍTULO Y DESCRIPCIÓN ======== */
+.titulo-contacto {
+  color: #ff0080;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descripcion-contacto {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* ======== TARJETAS DE CONTACTO ======== */
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  width: 250px;
+  border: 2px solid rgba(255, 0, 128, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 0, 128, 0.08);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff0080;
+  box-shadow: 0 6px 16px rgba(255, 0, 128, 0.2);
+}
+
+/* ======== ÍCONOS DE CONTACTO ======== */
+.icono-contacto {
+  font-size: 3rem;
+  display: block;
+  margin: 0 auto 10px;
+  animation: latido 1.8s infinite ease-in-out;
+}
+
+/* Colores individuales */
+.icono-contacto.whatsapp {
+  color: #25d366;
+}
+
+.icono-contacto.correo {
+  color: #e60073;
+}
+
+.icono-contacto.horario {
+  color: #007bff;
+}
+
+/* Efecto de latido */
+@keyframes latido {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* ======== REDES SOCIALES ======== */
+.redes-sociales h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.icono-red {
+  font-size: 2.2rem;
+  cursor: pointer;
+  animation: latido 2s infinite ease-in-out;
+  transition: transform 0.3s;
+}
+
+.icono-red:hover {
+  transform: scale(1.2);
+}
+
+/* Colores */
+.icono-red:nth-child(1) {
+  color: #1877f2; /* Facebook */
+}
+.icono-red:nth-child(2) {
+  color: #e1306c; /* Instagram */
+}
+.icono-red:nth-child(3) {
+  color: #000; /* TikTok */
+}
+
+/* ======== FORMULARIO ======== */
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.formulario h3 {
+  text-align: center;
+  color: #ff0080;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff0080;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  background-color: #ff0080;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #e60073;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-card {
+    width: 80%;
+  }
+}
+
+/* --- Modal flotante --- */
+.modal-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: aparecerFondo 0.3s ease-in-out;
+}
+
+.modal-mensaje {
+  background: #fff;
+  padding: 30px 50px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  animation: aparecerModal 0.4s ease-in-out;
+}
+
+.modal-mensaje h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.modal-mensaje p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Animaciones suaves */
+@keyframes aparecerFondo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecerModal {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
