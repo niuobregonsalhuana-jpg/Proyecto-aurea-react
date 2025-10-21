@@ -1,85 +1,87 @@
 {
     "productos": [
         {    
+            "id": 1,
             "name": "SKIN1004",
             "description": "Reparación delicada" ,
             "imgUrl": "https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_skin1004.jpg&w=640&q=80"
         },
 
          {
+            "id": 2, 
             "name":"Dear, Klairs" ,
             "description": "Hidratante iluminador" ,
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_dear_klairs.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 3,
             "name": "Abib" ,
             "description":"Revitaliza tu mirada" ,
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_abib.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 4,
             "name":"NINELESS",
             "description": "Piel impecable" ,
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_nineless.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 5,
             "name":"LAKA",
             "description":"Dúo de tintes frutales",
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_laka.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 6,
             "name":"TOCOBO" ,
             "description": "Brillo intenso" ,
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_tocobo.jpg&w=640&q=80"
         },
 
-         {
+         {   "id": 7,
             "name": "Rohto",
             "description":"Cuidado intensivo" ,
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk25/pb_rohto_mentholatum.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 8,
             "name":"House of Hu",
             "description":"Textura ligera",
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_house_of_hur.jpg&w=640&q=80"
 
         },
 
-         {
+         {   "id": 9,
             "name": "Medi Peel",
             "description": "Peeling eficaz",
             "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_medi_peel.jpg&w=640&q=80"  
         },
-         {
+         {   "id": 10,
             "name": "LANEIGE ",
             "description": " Labios suaves y rellenos" ,
             "imgUrl":"https://d1flfk77wl2xk4.cloudfront.net/Assets/laneige-lip-sleeping-mask-ex-mini-3g/47/238/XXL_p0099423847.jpg"
 
         },
-         {
+         {   "id": 11,
             "name": "NEEDLY ",
             "description":"Crema para ojos",
             "imgUrl":"https://d1flfk77wl2xk4.cloudfront.net/Assets/05/459/XXL_p0150945905.jpg"
 
         },
         
-        {
+        {  "id": 12,
     "name": "Glow Stick",
     "description": "Corrector en crema",
     "imgUrl": 
       "https://d1flfk77wl2xk4.cloudfront.net/Assets/92/232/XXL_p0212123292.jpg"
   },
 
-   {
+   {  "id": 13,
     "name": "TOCOBO",
     "description": "Duo de Bloqueador solar",
     "imgUrl":
@@ -87,7 +89,7 @@
       
   },
 
-  {
+  { "id": 14,
     "name": "ATUDE",
     "description": "Base facial",
     "imgUrl":
@@ -96,7 +98,7 @@
   },
 
 
-  {
+  {  "id": 15,
     "name": "MADICUBE",
     "description": "Mascarilla facial",
     "imgUrl":
@@ -105,7 +107,7 @@
   },
 
 
-    {
+    {  "id": 16,
     "name": "KSECRET",
     "description": "Contorno de ojos",
     "imgUrl":
@@ -114,7 +116,7 @@
   },
 
 
-    {
+    {  "id": 17,
     "name": "TIRTI",
     "description": "Tinta Lbial",
     "imgUrl":
@@ -123,7 +125,7 @@
   },
 
 
-    {
+    {  "id": 18,
     "name": "PERIPERA",
     "description": "Mascarilla para cejas",
     "imgUrl":
@@ -131,7 +133,7 @@
   },
 
 
-    {
+    { "id": 19,
     "name": "NOVO",
     "description": "Crema de manos",
     "imgUrl":
@@ -139,7 +141,7 @@
   },
 
 
- {
+ {   "id": 20,
     "name": "CORSX",
     "description": "Piel Suave",
     "imgUrl":

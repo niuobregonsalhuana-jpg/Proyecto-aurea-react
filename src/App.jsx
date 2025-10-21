@@ -12,6 +12,7 @@ import SobreAurea from './pages/SobreAurea'
 import Productos from './pages/Productos'
 import Carousel from './components/Carrusel'
 import Contacto from './pages/Contacto'
+import Ofertas from './pages/ofertas'
 
 //Mis paginas
 // import SobreAurea from './pages/SobreAurea'
@@ -30,11 +31,19 @@ function App () {
     <>
           <BrowserRouter>
             <Navbar />
-              <Carousel images={images} interval={3000} />
+              
             <Routes>
               <Route path='/' element= {<Hero />}></Route>
               <Route path='/SobreAurea' element={<SobreAurea />} />
               <Route path='/Contacto' element={<Contacto />} />
+              <Route path='/Productos' element={
+                <>
+                <Carousel images={images} interval={3000} />
+                <Productos />
+                <Ofertas />
+                </>
+
+              } />
             </Routes>
 
             <Footer />
