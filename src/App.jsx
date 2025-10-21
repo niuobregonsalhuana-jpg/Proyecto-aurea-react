@@ -10,8 +10,7 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import SobreAurea from './pages/SobreAurea'
 import Productos from './pages/Productos'
-import { Carousel } from 'bootstrap'
-
+import Carousel from './components/Carrusel'
 
 //Mis paginas
 // import SobreAurea from './pages/SobreAurea'
