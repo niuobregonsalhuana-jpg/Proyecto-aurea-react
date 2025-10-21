@@ -11,7 +11,7 @@ export default function SobreAurea() {
               <p className="lead mt-3 text-muted">
                 Unimos a mujeres reales para empoderarlas a través del amor propio, la autenticidad y la belleza sin filtros.
               </p>
-              <a href="#sobre-nosotras" className="btn btn-custom mt-4 rounded-pill px-4">
+              <a href="#sobre-nosotras" className="btn-custom mt-4 rounded-pill px-4">
                 Conoce más sobre nosotras <i className="bi bi-arrow-down ms-2"></i>
               </a>
             </div>
