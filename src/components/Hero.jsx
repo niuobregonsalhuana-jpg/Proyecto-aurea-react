@@ -15,7 +15,7 @@ function Hero() {
                 resaltar tu esencia, brindarte confianza y acompañarte en cada
                 estilo de vida.
               </p>
-              <a href="#" className="btn btn-custom mt-3">Inicia Aquí</a>
+              <a href="#" className="btn-custom mt-3">Inicia Aquí</a>
             </div>
             <div className="col-md-6 text-center">
               <img

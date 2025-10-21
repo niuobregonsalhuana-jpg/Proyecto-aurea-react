@@ -1,0 +1,57 @@
+.popup-bienvenida {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 320px;
+  max-width: 90vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+.btn-custom {
+  background-color: #d20072;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #a50058;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 9999px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.bi {
+  font-size: 1.2rem;
+}
+

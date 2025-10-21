@@ -17,3 +17,7 @@
 .text-white {
   color: #fff !important;
 }
+
+nav a {
+  text-decoration: none !important;
+}
