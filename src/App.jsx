@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import SobreAurea from './pages/SobreAurea'
 import Productos from './pages/Productos'
 import Carousel from './components/Carrusel'
+import Contacto from './pages/Contacto'
 
 //Mis paginas
 // import SobreAurea from './pages/SobreAurea'
@@ -32,11 +33,10 @@ function App () {
               <Carousel images={images} interval={3000} />
             <Routes>
               <Route path='/' element= {<Hero />}></Route>
-              <Route path='/SobreAurea'element={<SobreAurea />} />
-             
-              
-            </Routes>  
-            
+              <Route path='/SobreAurea' element={<SobreAurea />} />
+              <Route path='/Contacto' element={<Contacto />} />
+            </Routes>
+
             <Footer />
           </BrowserRouter>
     </>

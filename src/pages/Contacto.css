@@ -221,6 +221,19 @@
   font-size: 1rem;
 }
 
+/* Quitar subrayado y color azul de los enlaces */
+.contact-card a {
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Mantiene el color del texto del contenedor */
+}
+
+/* Opcional: si quieres un efecto al pasar el mouse */
+.contact-card a:hover {
+  color: #e60073; /* Verde suave o el color que prefieras */
+  text-decoration: none;
+}
+
+
 /* Animaciones suaves */
 @keyframes aparecerFondo {
   from {
