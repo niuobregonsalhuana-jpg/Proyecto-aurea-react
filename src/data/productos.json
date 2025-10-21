@@ -1,0 +1,150 @@
+{
+    "productos": [
+        {    
+            "name": "SKIN1004",
+            "description": "Reparación delicada" ,
+            "imgUrl": "https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_skin1004.jpg&w=640&q=80"
+        },
+
+         {
+            "name":"Dear, Klairs" ,
+            "description": "Hidratante iluminador" ,
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_dear_klairs.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name": "Abib" ,
+            "description":"Revitaliza tu mirada" ,
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_abib.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name":"NINELESS",
+            "description": "Piel impecable" ,
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_nineless.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name":"LAKA",
+            "description":"Dúo de tintes frutales",
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_laka.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name":"TOCOBO" ,
+            "description": "Brillo intenso" ,
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_tocobo.jpg&w=640&q=80"
+        },
+
+         {
+            "name": "Rohto",
+            "description":"Cuidado intensivo" ,
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk25/pb_rohto_mentholatum.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name":"House of Hu",
+            "description":"Textura ligera",
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_house_of_hur.jpg&w=640&q=80"
+
+        },
+
+         {
+            "name": "Medi Peel",
+            "description": "Peeling eficaz",
+            "imgUrl":"https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk37/pb_medi_peel.jpg&w=640&q=80"  
+        },
+         {
+            "name": "LANEIGE ",
+            "description": " Labios suaves y rellenos" ,
+            "imgUrl":"https://d1flfk77wl2xk4.cloudfront.net/Assets/laneige-lip-sleeping-mask-ex-mini-3g/47/238/XXL_p0099423847.jpg"
+
+        },
+         {
+            "name": "NEEDLY ",
+            "description":"Crema para ojos",
+            "imgUrl":"https://d1flfk77wl2xk4.cloudfront.net/Assets/05/459/XXL_p0150945905.jpg"
+
+        },
+        
+        {
+    "name": "Glow Stick",
+    "description": "Corrector en crema",
+    "imgUrl": 
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/92/232/XXL_p0212123292.jpg"
+  },
+
+   {
+    "name": "TOCOBO",
+    "description": "Duo de Bloqueador solar",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/tocobo-cotton-soft-sun-stick-bundle-set-2-pcs/44/294/XXL_p0219429444.jpg"
+      
+  },
+
+  {
+    "name": "ATUDE",
+    "description": "Base facial",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/etude-double-lasting-foundation-new-12-colors/75/266/L_p0130326675.jpg"
+      
+  },
+
+
+  {
+    "name": "MADICUBE",
+    "description": "Mascarilla facial",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/medicube-collagen-night-wrapping-mask-bundle-set-2-pcs/86/380/XXL_p0219538086.jpg"
+      
+  },
+
+
+    {
+    "name": "KSECRET",
+    "description": "Contorno de ojos",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/ksecret-seoul-1988-eye-cream-retinal-liposome-4-fermented-bean-30ml/20/371/XXL_p0212137120.jpg"
+      
+  },
+
+
+    {
+    "name": "TIRTI",
+    "description": "Tinta Lbial",
+    "imgUrl":
+      
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-waterism-glow-tint-mini-30-colors/89/316/XXL_p0214831689.jpg"
+  },
+
+
+    {
+    "name": "PERIPERA",
+    "description": "Mascarilla para cejas",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/08/159/M_p0178115908.jpg"
+  },
+
+
+    {
+    "name": "NOVO",
+    "description": "Crema de manos",
+    "imgUrl":
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/78/536/M_p0216553678.jpg"    
+  },
+
+
+ {
+    "name": "CORSX",
+    "description": "Piel Suave",
+    "imgUrl":
+      "https://www.yesstyle.com/_next/image?url=https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/25wk36/pb_cosrx.jpg&w=640&q=80"    
+  }
+
+    ]
+}
