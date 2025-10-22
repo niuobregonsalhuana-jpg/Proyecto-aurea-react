@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./MascotaPchan.css";
 
 function MascotaPchan() {
   const [mostrarAyuda, setMostrarAyuda] = useState(false);

@@ -13,6 +13,7 @@ import Productos from './pages/Productos'
 import Carousel from './components/Carrusel'
 import Contacto from './pages/Contacto'
 import Ofertas from './pages/ofertas'
+import MascotaPchan from './components/MascotaPchan'
 
 //Mis paginas
 // import SobreAurea from './pages/SobreAurea'
@@ -31,6 +32,7 @@ function App () {
     <>
           <BrowserRouter>
             <Navbar />
+           
               
             <Routes>
               <Route path='/' element= {<Hero />}></Route>
@@ -44,8 +46,9 @@ function App () {
                 </>
 
               } />
+                
             </Routes>
-
+           <MascotaPchan />
             <Footer />
           </BrowserRouter>
     </>
